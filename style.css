@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(22, 22, 68);
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.card {
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
+    
+}
+
+@media (min-width :80rem) {
+    .card-grid{
+        margin:1em 2em ;
+    }
+}
